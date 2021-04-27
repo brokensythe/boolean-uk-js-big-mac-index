@@ -34,5 +34,12 @@ let swedishRelativeValuePercentage = swedishRelativeValueTotal / swedishImpliedP
 let turkishRelativeValuePercentage = turkishRelativeValueTotal / turkishImpliedPurchasingPower * 100
 let israeliRelativeValuePercentage = israeliRelativeValueTotal / israeliImpliedPurchasingPower * 100
 
+// STRONGER THAN US DOLLAR
+let swissStrongerThanDollar = swissRelativeValueTotal > 0
+let ukrainianStrongerThanDollar = ukrainianRelativeValueTotal > 0
+let swedishStrongerThanDollar = swedishRelativeValueTotal > 0
+let turkishStrongerThanDollar = turkishRelativeValueTotal > 0
+let israeliStrongerThanDollar = israeliRelativeValueTotal > 0
+
 // CONSOLE LOGS
-// console.log("")
+console.log("It is: ", swissStrongerThanDollar)
